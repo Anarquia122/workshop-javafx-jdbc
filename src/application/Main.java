@@ -24,6 +24,7 @@ public class Main extends Application {
 			
 			mainScene = new Scene(scrollPane);
 			stage.setScene(mainScene);
+			mainScene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			stage.setTitle("Sample JavaFX Application");
 			stage.show();
 		} catch(IOException e) {

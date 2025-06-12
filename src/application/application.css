@@ -1,1 +1,25 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+ScrollPane {
+	-fx-background-color: #404040;
+	-fx-color: #fff;
+}
+
+VBox {
+	-fx-background-color: #404040;
+	-fx-color: #fff;
+}
+
+MenuBar {
+	-fx-background-color: #ADADAD;
+	-fx-color: #fff;
+}
+
+#editButton {
+	-fx-background-color: #08b;
+	-fx-text-fill: #fff;
+}
+
+#removeButton {
+	-fx-background-color: #d03;
+	-fx-text-fill: #fff;
+}

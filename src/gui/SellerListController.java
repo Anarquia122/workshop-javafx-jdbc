@@ -153,7 +153,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 				}
 				
 				setGraphic(button);
-				button.setStyle("-fx-background-color: #08b;");
+				button.setId("editButton");
 				button.setOnAction(event -> createDialogForm(
 						obj, "/gui/SellerForm.fxml", Utils.currentStage(event)));
 			}
@@ -175,7 +175,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 				}
 				
 				setGraphic(button);
-				button.setStyle("-fx-background-color: #d03;");
+				button.setId("removeButton");
 				button.setOnAction(event -> removeEntity(obj));
 			}
 		});
